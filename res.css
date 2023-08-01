@@ -1,10 +1,9 @@
 @media screen and (max-width:600px){
     .container{
         background-color:orange; 
-        width:75%;
+        width:85%;
         height:150px;
         position: relative;
-        right:30px;
         bottom:20px;
         display: flex;
         flex-direction: column;
@@ -12,21 +11,26 @@
        .daw{
        position: relative;
        bottom: 40px;
-       left: 18px;
+       left:68px;
        width: 33%;
     }
     .profile-img{
        position: relative;
        right: 265px;
+       top:50px;
        width:300px;
+       height: 180px;
        }
        .profile-img img{
-        height: 180px;
+        height: 150px;
        }
+       .information{
+        margin-top:0px;
+      }
        .icons{
        position: relative;
-       top:80px;
-        right:40px;
+       top:280px;
+        right:20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
