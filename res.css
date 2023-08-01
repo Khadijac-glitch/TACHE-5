@@ -1,0 +1,169 @@
+@media screen and (max-width:600px){
+    .container{
+        background-color:orange; 
+        width:75%;
+        height:150px;
+        position: relative;
+        right:30px;
+        bottom:20px;
+        display: flex;
+        flex-direction: column;
+       }
+       .daw{
+       position: relative;
+       bottom: 40px;
+       left: 18px;
+       width: 33%;
+    }
+    .profile-img{
+       position: relative;
+       right: 265px;
+       width:300px;
+       }
+       .profile-img img{
+        height: 180px;
+       }
+       .icons{
+       position: relative;
+       top:80px;
+        right:40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:0px;
+       }
+      .son{
+        position: relative;
+        bottom: 60px;
+        right:26px;
+      }
+      .rag{
+        margin-left:5px;
+     
+      }
+      .heading{
+        position: relative;
+        right: 110px;
+      }
+    
+      .container3{
+        position: relative;
+        right:110px;
+      }
+      .container3 h3{
+       font-size:25px;
+      }
+      .container3 h6{
+      font-size: 13px;
+      }
+      .liens{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        position: relative;
+        left:10px;
+        top:50px;
+        margin: 0;
+ 
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows:700px;
+        gap:5px
+    }
+  .margin{ 
+        font-size:15px;
+        line-height:20px;
+        position: relative;
+        top: 80px;
+         right: 100px;
+      }
+    .ora{
+    left: 17px;
+    }
+    .all{
+        position: relative;
+        top: 80px;
+        right: 100px;
+        display:grid; 
+        grid-template-columns:50% 50%;
+        grid-template-rows: 200px 200px;
+         column-gap:20px;
+       }
+
+    .liste p{
+        /* display: flex; */
+        display: inline;
+        flex-direction: row;
+        font-size:28px;
+        /* width: 100%; */
+    }
+    .exp{
+        position: relative;
+        right: 80px;
+    }
+    .liste{
+        position: relative;
+        top: 130px;
+        right: 160px;
+    }
+    .education{
+        display: flex;
+        flex-direction:row;  
+    }
+    .education0{
+        position: relative;
+        bottom: 15px;
+        right: 160px;
+    }
+    .education3{
+        position: relative;
+        top: 150px;
+        right: 250px;
+    }
+    .education3 h5{
+        display: flex;
+    }
+    .education3 h3{
+        color: #edad22;
+        font-weight: 500;
+      }
+      .education3 h4{
+        margin: auto;
+       font-size:12px;
+        display: inline;
+      }
+      .projets{
+        background-image:url(ordi.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:250px; 
+      }
+      .chiffre {
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+        gap: 10px;
+     }
+     .chif h1{
+        font-size:40px;
+      }
+      .chif h4{
+       padding: 0;
+      }
+      .chif{
+        display: flex;
+        gap:8px;
+      }
+      
+    
+
+     
+   
+    }
+
+
+ 
+
+    
