@@ -12,7 +12,9 @@
  header{
  padding-top: 40px; 
  } 
-
+.number{
+  color: white;
+}
 .container{
   color: white;
   display: flex;
