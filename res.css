@@ -1,4 +1,7 @@
 @media screen and (max-width:600px){
+  body{
+    position:sticky;
+  }
     .container{
         background-color:orange; 
         width:85%;
@@ -12,11 +15,14 @@
        position: relative;
        bottom: 40px;
        left:68px;
-       width: 33%;
+       width: 34%;
+    }
+    .daw button{
+      font-size: 14px;
     }
     .profile-img{
        position: relative;
-       right: 265px;
+       right: 250px;
        top:50px;
        width:300px;
        height: 180px;
@@ -29,7 +35,7 @@
       }
        .icons{
        position: relative;
-       top:280px;
+       top:300px;
         right:20px;
         display: flex;
         flex-direction: row;
@@ -99,22 +105,34 @@
     .liste p{
         display: inline;
         flex-direction: row;
-        font-size:28px;
+        font-size:20px;
     }
-    .junior   {
-      font-size:17px;
+    .junior{
+      display: flex;
+      flex-wrap: wrap;
+      font-size:13px;
+      line-height:22px;
+      /* font-size:17px;
       position: relative;
-      left: 100px;
+      left: 100px; */
     }
     .dgn{
-      font-size: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size:10px;
+      line-height:22px;
+      /* font-size: 15px;
       position: relative;
-      left: 100px;
+      left: 100px; */
     }
     .pret{
-      font-size:13px;
-      position: relative;
-      left: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size:10px;
+      line-height:22px;
+      /* font-size:13px;
+      display: flex;
+      flex-wrap: wrap; */
     }
    
     .exp{
@@ -126,24 +144,23 @@
         display: flex;
          flex-wrap: wrap;
         position: relative;
-        top: 130px;
-        right: 160px;
+        top: 100px;
+        right: 80px;
     }
     .experience1{
+      display: flex;
+      flex-wrap: wrap;
       font-size:13px;
-      line-height:20px; 
-      position: relative;
-      left: 100px;
+      line-height:22px; 
     }
     .coté{
-      font-size:20px;
-      position: relative;
-      left: 100px;
-      bottom: 13px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size:18px;
+      line-height:22px;
     }
     .education{
         display: flex;
-        flex-direction:row;  
     }
     .education0{
         position: relative;
