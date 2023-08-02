@@ -81,7 +81,7 @@
         line-height:20px;
         position: relative;
         top: 80px;
-         right: 100px;
+        right: 100px;
       }
     .ora{
     left: 17px;
@@ -97,20 +97,49 @@
        }
 
     .liste p{
-        /* display: flex; */
         display: inline;
         flex-direction: row;
         font-size:28px;
-        /* width: 100%; */
     }
+    .junior   {
+      font-size:17px;
+      position: relative;
+      left: 100px;
+    }
+    .dgn{
+      font-size: 15px;
+      position: relative;
+      left: 100px;
+    }
+    .pret{
+      font-size:13px;
+      position: relative;
+      left: 100px;
+    }
+   
     .exp{
         position: relative;
-        right: 80px;
+        right:75px;
+        bottom:50px;
     }
     .liste{
+        display: flex;
+         flex-wrap: wrap;
         position: relative;
         top: 130px;
         right: 160px;
+    }
+    .experience1{
+      font-size:13px;
+      line-height:20px; 
+      position: relative;
+      left: 100px;
+    }
+    .coté{
+      font-size:20px;
+      position: relative;
+      left: 100px;
+      bottom: 13px;
     }
     .education{
         display: flex;
@@ -118,24 +147,41 @@
     }
     .education0{
         position: relative;
-        bottom: 15px;
+        bottom:80px;
         right: 160px;
+    }
+    .education2{
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      bottom:80px;
+     }
+    .education h2{
+      font-size:px;
+    } 
+    .education p{
+     font-size: 15px; 
     }
     .education3{
         position: relative;
         top: 150px;
         right: 250px;
     }
-    .education3 h5{
-        display: flex;
+    .education3 h1{
+      position: relative;
+      font-size: 15px;
     }
+    .education3 h5{
+        display: inline-flex;
+        font-size:12px;
+     }
     .education3 h3{
-        color: #edad22;
+      font-size: 15px;
         font-weight: 500;
       }
       .education3 h4{
         margin: auto;
-       font-size:12px;
+       font-size:13px;
         display: inline;
       }
       .projets{
@@ -160,10 +206,6 @@
         display: flex;
         gap:8px;
       }
-      
-    
-
-     
    
     }
 
