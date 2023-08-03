@@ -1,7 +1,9 @@
 @media screen and (max-width:600px){
-  body{
-    position:sticky;
-  }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     .container{
         background-color:orange; 
         width:85%;
@@ -16,17 +18,30 @@
       }
        .daw{
        position: relative;
-       bottom: 40px;
+       bottom:45px;
        left:68px;
        width: 34%;
     }
     .daw button{
       font-size: 14px;
     }
+    .intro1 h2{
+     position: relative;
+     top:60px;
+      font-size:30px;
+      }
+      .intro1 h4{
+        position: relative;
+        top:70px;
+        display: flex;
+        flex-direction: row;
+        font-size:18px;
+        font-weight:700;
+      }
     .profile-img{
        position: relative;
        right: 250px;
-       top:50px;
+       top:70px;
        width:300px;
        height: 180px;
        }
@@ -34,21 +49,30 @@
         height: 150px;
        }
        .information{
-        margin-top:0px;
+        margin-top:80px;
       }
        .icons{
-       position: relative;
-       top:300px;
-        right:20px;
+        position: relative;
+        top:300px;
+        right:13px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap:0px;
        }
+       .icons img{
+        width:12px;
+        height:12px;
+        right:45px;
+        bottom: 90px;
+       
+       }
       .son{
-        position: relative;
-        bottom: 60px;
-        right:26px;
+        width: 23px;
+        height: 23px;
+        position:relative;
+        bottom:95px;
+        right:27px;
       }
       .rag{
         margin-left:5px;
@@ -102,129 +126,66 @@
         display:grid; 
         grid-template-columns:50% 50%;
         grid-template-rows: 200px 200px;
-         column-gap:20px;
+        column-gap:50px;
        }
-
-    .liste p{
-        display: inline;
-        flex-direction: row;
-        font-size:20px;
-    }
-    .junior{
+    
+      .threads{
       display: flex;
-      flex-wrap: wrap;
-      font-size:13px;
-      line-height:22px;
-      /* font-size:17px;
-      position: relative;
-      left: 100px; */
-    }
-    .dgn{
-      display: flex;
-      flex-wrap: wrap;
-      font-size:10px;
-      line-height:22px;
-      /* font-size: 15px;
-      position: relative;
-      left: 100px; */
-    }
-    .pret{
-      display: flex;
-      flex-wrap: wrap;
-      font-size:10px;
-      line-height:22px;
-      /* font-size:13px;
-      display: flex;
-      flex-wrap: wrap; */
-    }
-   
+      flex-direction: row;
+      line-height:normal;
+      width:450px;
+      } 
+      .education3{
+        position: relative;
+        top:90px;
+        right:60px;
+      }
     .exp{
         position: relative;
         right:75px;
         bottom:50px;
-    }
-    .liste{
-        display: flex;
-         flex-wrap: wrap;
-        position: relative;
-        top: 100px;
-        right: 80px;
-    }
-    .experience1{
-      display: flex;
-      flex-wrap: wrap;
-      font-size:13px;
-      line-height:22px; 
-    }
-    .coté{
-      display: flex;
-      flex-wrap: wrap;
-      font-size:18px;
-      line-height:22px;
+        width: 0;
     }
     .education{
-        display: flex;
-    }
-    .education0{
-        position: relative;
-        bottom:80px;
-        right: 160px;
-    }
-    .education2{
       display: flex;
-      flex-wrap: wrap;
-      position: relative;
-      bottom:80px;
-     }
-    .education h2{
-      font-size:px;
-    } 
-    .education p{
-     font-size: 15px; 
+      flex-direction: row;
+      width:800px;
     }
-    .education3{
-        position: relative;
-        top: 150px;
-        right: 250px;
-    }
-    .education3 h1{
-      position: relative;
-      font-size: 15px;
-    }
-    .education3 h5{
-        display: inline-flex;
-        font-size:12px;
-     }
-    .education3 h3{
-      font-size: 15px;
-        font-weight: 500;
-      }
-      .education3 h4{
-        margin: auto;
-       font-size:13px;
-        display: inline;
-      }
+   .education0{
+    position: relative;
+    right: 170px;
+    bottom: 80px;
+   }
+   .education2{
+    position: relative;
+    top:px;
+    right:280px;
+   }
       .projets{
-        background-image:url(ordi.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height:250px; 
+       background: hwb(39 0% 0%);
+       height:35vh; 
       }
       .chiffre {
         display: flex;
         flex-direction: column;
-        margin-left: 140px;
-        gap: 10px;
+        margin-left: 110px;
+        gap: 20px;
      }
      .chif h1{
         font-size:40px;
+        
+      }
+      .ref{
+        position: relative;
+        top:17px;
       }
       .chif h4{
-       padding: 0;
+    padding: 0;
+    font-size: 15px;
       }
       .chif{
         display: flex;
-        gap:8px;
+        flex-direction: row;
       }
    
     }

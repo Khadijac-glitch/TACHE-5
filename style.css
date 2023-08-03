@@ -20,9 +20,9 @@
   display: flex;
   align-items: center; 
   background-color:orange; 
-  width: 85%;
+  /* width: 85%; */
   margin: auto;
-  height: 120px;
+  /* height: 100px; */
   justify-content: space-evenly;
   border-radius: 2%;
 
@@ -68,13 +68,13 @@ font-size:22px;
   height:15px;
   position: relative;
   bottom: 50px;
-  right: 50px;
+  right:80px;
 }
 
 .son{
   position: relative;
   bottom:40px;
-  right:22px;
+  right:52px;
   width:33px;
   height:33px;
   border: none;
@@ -120,6 +120,8 @@ font-size: 35px;
   margin-top: 50px;
 }
 .information li{
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   font-size: 17px;
   margin-top: 5px;
@@ -425,11 +427,6 @@ background-image: url('portfolio-6-600x800.jpg.webp');
   right: 36px;
   color: #61605f;
  }
-
- .experience0{
-  background-color: #340d3e;
-  padding:100px;
- }
  .exp h2{
     color: white; 
     font-weight: bold;
@@ -439,45 +436,34 @@ background-image: url('portfolio-6-600x800.jpg.webp');
   color: rgb(201, 198, 198);
   font-size: 17px; 
 } 
+.education3 h5{
+  font-size:21px;
+  font-weight: 200;
+}
+.education3 ul{
+  list-style-type: circle;
+  font-size: 17px;
+  font-weight: 200;
+}
 .ang{
   position: relative;
-
   bottom:8px;
   width:50px;
   border-radius: 5px;
   border:5px solid orange;
 } 
+
 .threads{
-display: grid;
-grid-template-columns: 30% 70%;
-gap: 25px;
-} 
-.experience1{
-  font-size: 20px;
-}
-.liste{
+  background-color: #340d3e;
+  padding:100px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+  line-height: 25px;
   color: white;
-  margin: auto;
-}
-.junior   {
-  font-size: 20px;
-  font-weight: bold;
- margin-bottom: 15px;
-}
-.dgn{
-  color: #edad22;
-  font-size: 15px;
-  font-weight: bold;
- margin-bottom: 15px; 
-}
-.pret{
-  font-size: 20px;
- margin-bottom: 15px; 
-}
-.experience1 , .coté{
- font-size: 20px;
- margin-bottom: 15px; 
-}
+} 
+
+/*  */
 .ange{
   position: relative;
   top:28px;
@@ -511,7 +497,7 @@ padding:100px;
   font-weight: 500;
 }
 .education2{
- width: 80%;
+ /* width: 80%; */
  margin: 0 auto;
  position: relative;
  bottom: 0px;
