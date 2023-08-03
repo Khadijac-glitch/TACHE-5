@@ -127,7 +127,7 @@
     .all{
         position: relative;
         top: 80px;
-        right:50px;
+        right:40px;
         display:grid; 
         grid-template-columns:50% 50%;
         grid-template-rows: 200px 200px;
@@ -191,6 +191,8 @@
       .chif{
         display: flex;
         flex-direction: row;
+        position: relative;
+        bottom: 25px;
       }
    
     }
